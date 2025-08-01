@@ -1,8 +1,9 @@
 import React from "react";
-function ProductDetails() {
+async function ProductDetails({ params }) {
+  const { productId } = await params;
   return (
     <>
-      <h1>Details about products</h1>
+      <h1>Details about product {productId}</h1>
     </>
   );
 }
