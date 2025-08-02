@@ -1,8 +1,10 @@
 import React from "react";
-
+import { notFound } from "next/navigation";
 function ReviewId({ params }) {
   const { productId, ReviewId } = params;
-
+  if (parseInt(ReviewId) > 1000) {
+    notFound();
+  }
   return (
     <>
       <h1>
