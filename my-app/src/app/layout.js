@@ -10,7 +10,9 @@ export default function RootLayout({ children }) {
         <header>
           <h1>This is the header of the website</h1>
         </header>
+
         {children}
+
         <footer>
           <h2>This is the footer of the website</h2>
         </footer>

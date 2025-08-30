@@ -1,5 +1,10 @@
 import React from "react";
-function Products() {
+async function Products() {
+  await new Promise((resolve) => {
+    setTimeout(() => {
+      resolve("intentional delay");
+    }, 2000);
+  });
   return (
     <>
       <h1>Products page </h1>
