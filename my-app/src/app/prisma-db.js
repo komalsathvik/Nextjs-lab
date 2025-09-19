@@ -1,4 +1,5 @@
 import pkg from "@prisma/client";
+import { init } from "next/dist/compiled/webpack/webpack";
 const { PrismaClient } = pkg;
 
 const prisma = new PrismaClient();
