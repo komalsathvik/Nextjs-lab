@@ -1,10 +1,8 @@
-import React from "react";
-function Reviews() {
+export default function Reviews({ params }) {
+  const { productId } = params;
   return (
-    <>
-      <h1>Reviews</h1>
-    </>
+    <div>
+      <h1>Reviews for product {productId}</h1>
+    </div>
   );
 }
-
-export default Reviews;
