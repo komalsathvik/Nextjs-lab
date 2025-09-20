@@ -8,7 +8,7 @@ function NotFound() {
   return (
     <>
       <h1>
-        Review {reviewId} and product {prodId} was not found
+        Review {reviewId} for product {prodId} was not found
       </h1>
     </>
   );

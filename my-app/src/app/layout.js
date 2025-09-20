@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
 
         <footer>
           <h2>This is the footer of the website</h2>
+          <h1>This applies to all the pages across navigation</h1>
         </footer>
       </body>
     </html>
